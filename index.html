@@ -3,101 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Geiser Group - Consultorías SST</title>
+    <title>Geiser Group - Consultorías en SST</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f8fb;
             color: #333;
         }
         header {
-            background-color: #006699;
+            background: linear-gradient(90deg, #0056b3, #00b894);
+            padding: 20px;
             color: white;
             text-align: center;
-            padding: 20px 10px;
         }
         header img {
-            max-width: 150px;
-            display: block;
-            margin: 0 auto 10px;
+            max-height: 80px;
         }
         nav {
-            background-color: #004466;
-            padding: 10px;
+            background-color: #003366;
+            padding: 10px 0;
             text-align: center;
         }
         nav a {
             color: white;
-            text-decoration: none;
             margin: 0 15px;
+            text-decoration: none;
             font-weight: bold;
         }
         nav a:hover {
-            text-decoration: underline;
-        }
-        main {
-            padding: 20px;
-            max-width: 900px;
-            margin: auto;
-            background-color: white;
-            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            color: #ff9800;
         }
         section {
-            margin-bottom: 20px;
+            padding: 40px;
+            max-width: 1200px;
+            margin: auto;
         }
-        h1, h2 {
-            color: #006699;
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .service {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+            width: 300px;
+            text-align: center;
+        }
+        .service img {
+            max-width: 100%;
+            border-radius: 8px;
         }
         footer {
-            background-color: #004466;
+            background-color: #003366;
             color: white;
+            padding: 20px;
             text-align: center;
-            padding: 15px;
-            font-size: 14px;
         }
-        .contacto {
-            background-color: #e6f2ff;
-            padding: 15px;
-            border-radius: 5px;
+        footer p {
+            margin: 5px 0;
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <img src="logo.png" alt="Logo Geiser Group">
-        <h1>Geiser Group</h1>
-        <p>Asesorías, Consultorías y Capacitación en Seguridad y Salud en el Trabajo</p>
-    </header>
+<header>
+    <img src="logo.png" alt="Logo Geiser Group">
+    <h1>Geiser Group</h1>
+    <p>Asesorías, Consultorías y Capacitaciones en Seguridad y Salud en el Trabajo</p>
+</header>
 
-    <nav>
-        <a href="#servicios">Servicios</a>
-        <a href="#contacto">Contacto</a>
-    </nav>
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#contacto">Contacto</a>
+</nav>
 
-    <main>
-        <section id="servicios">
-            <h2>Nuestros Servicios</h2>
-            <ul>
-                <li>Asesorías en Seguridad y Salud en el Trabajo (SST)</li>
-                <li>Diseño e implementación del SG-SST</li>
-                <li>Capacitaciones para trabajadores y empleadores</li>
-                <li>Consultorías personalizadas</li>
-            </ul>
-        </section>
+<section id="inicio">
+    <h2>Bienvenidos a Geiser Group</h2>
+    <p>Somos expertos en diseñar, implementar y mejorar el Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST) para microempresas de Colombia, con niveles de riesgo 1, 2 y 3.</p>
+</section>
 
-        <section id="contacto" class="contacto">
-            <h2>Contacto</h2>
-            <p><strong>Correo:</strong> <a href="mailto:geiser.group@gmail.com">geiser.group@gmail.com</a></p>
-            <p><strong>Teléfono:</strong> <a href="tel:+573150047647">315 004 7647</a></p>
-        </section>
-    </main>
+<section id="servicios">
+    <h2>Nuestros Servicios</h2>
+    <div class="services">
+        <div class="service">
+            <img src="https://images.unsplash.com/photo-1581094794329-c8112a89d4f5" alt="Consultorías SST">
+            <h3>Consultorías SST</h3>
+            <p>Soluciones personalizadas para cumplir con la normatividad y mejorar la seguridad laboral.</p>
+        </div>
+        <div class="service">
+            <img src="https://images.unsplash.com/photo-1551836022-4c4c79ecde51" alt="Capacitaciones">
+            <h3>Capacitaciones</h3>
+            <p>Formación práctica y efectiva para tus trabajadores en prevención de riesgos.</p>
+        </div>
+        <div class="service">
+            <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e" alt="Implementación SG-SST">
+            <h3>Implementación SG-SST</h3>
+            <p>Diseño e implementación de tu sistema de seguridad y salud en el trabajo desde cero.</p>
+        </div>
+    </div>
+</section>
 
-    <footer>
-        <p>&copy; 2025 Geiser Group - Todos los derechos reservados</p>
-    </footer>
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p>📧 Correo: <a href="mailto:geiser.group@gmail.com">geiser.group@gmail.com</a></p>
+    <p>📞 Teléfono: <a href="tel:+573150047647">315 004 7647</a></p>
+</section>
+
+<footer>
+    <p>© 2025 Geiser Group - Todos los derechos reservados</p>
+</footer>
 
 </body>
 </html>
